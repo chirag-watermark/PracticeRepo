@@ -4,9 +4,11 @@ num = gets.chomp.to_i
 def prime_checker(num)
     return false if num < 2
     return true if num ==  2
-    (2..Math.sqrt(num)).each do |i|
+    puts "Hello Wold"
+    puts "doing prime check"
+    (3..Math.sqrt(num)).each do |i|
       return false if num % i == 0
-    end
+    ends
     return true
   end
   
